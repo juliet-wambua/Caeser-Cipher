@@ -17,4 +17,6 @@ public class EncryptTest {
         Encrypt testEncrypt = new Encrypt("Aa", 1);
            assertEquals(1, testEncrypt.getKey());
         }
+
+
    }
