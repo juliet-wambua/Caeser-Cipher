@@ -11,5 +11,7 @@ public class Encrypt {
     public String getWord(){
         return word;
     }
-
+    public int getKey(){
+        return key;
+    }
 }

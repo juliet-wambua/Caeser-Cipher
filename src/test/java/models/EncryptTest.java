@@ -12,6 +12,9 @@ public class EncryptTest {
         assertEquals("Aa", testEncrypt.getWord());
     }
 
-
-
-}
+   @Test
+    public void Encrypt_getKey(){
+        Encrypt testEncrypt = new Encrypt("Aa", 1);
+           assertEquals(1, testEncrypt.getKey());
+        }
+   }
