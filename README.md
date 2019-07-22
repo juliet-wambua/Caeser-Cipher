@@ -6,7 +6,7 @@ A Caesar cipher is a type of substitution in which each letter is shifted a cert
 #### By **Juliet Wambua**
 
 ## Setup/Installation Requirements
-* git clone https://juliet-wambua.github.io/Delani-Studio/
+* git clone https://github.com/juliet-wambua/Caeser-Cipher.git
 * Change directory to Delani Studio
 * Open browser
 
