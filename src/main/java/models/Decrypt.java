@@ -18,7 +18,7 @@ public class Decrypt {
         this.key = key;
     }
 
-    public String decrypter(){
+    public String DeCrypt(){
         String decryptedText = "";
         for (int i = 0; i < getWord().length(); i++){
             char wordChar = getWord().charAt(i);
