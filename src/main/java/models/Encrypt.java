@@ -15,17 +15,14 @@ public class Encrypt {
         return key;
     }
 
-    public String encryption() {
+
+    public String EnCrypt(){
         StringBuilder encryptedText = new StringBuilder();
-        if (key > 26) {
-            key = key % 26;
-        } else if (key < 0) {
-            key = (key % 26) + 26;
-        }
-        for (int i = 0; i <= getWord().length(); i++) {
-            char wordChar = this.word.charAt(i);
-            char encryptedMessage = (char) (wordChar + getKey());
-            encryptedText.append(encryptedMessage);
+
+        for (int i = 0; i < getWord().length(); i++){
+            char wordChar = getWord().charAt(i);
+            char encrypted = (char) (wordChar + getKey());
+            encryptedText.append(encrypted);
         }
         return encryptedText.toString();
     }
